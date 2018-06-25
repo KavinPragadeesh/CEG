@@ -1,0 +1,116 @@
+.box1
+        {
+            width: 600px;
+            margin : auto;
+            border: 7px ridge transparent;
+            padding: 35px;
+            background: currentColor;
+            color: transparent;
+            font-size: 18pt;
+            font-family: Aldrich;
+        }
+.box1:hover
+        {
+            color: transparent;
+            opacity:.9;
+        }
+img:hover
+        {
+            opacity:.8;
+        }
+.logo
+        {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 1px solid transparent;
+            padding: 5px;
+            background-color: transparent;
+            left: 10px;
+            top: 7px;
+        }
+.box2
+        {
+            position: absolute;
+            width: 150px;
+            height: 40px;
+            padding-left: 50px;
+            background-color: transparent;
+            right: 20px;
+            top: 45px;
+            font-size: 14pt;
+            font-family: Architects Daughter;
+            color: transparent;
+
+        }
+.screen
+        {
+            position: absolute;
+            width: 1400px;
+            height: 900px;
+            color: rgba(255,255,255,.5);
+            background-color: currentColor;
+            top: 1px;
+        }
+.login
+        {
+            position: absolute;
+            width: 450px;
+            height: 500px;
+            background: linear-gradient(to bottom right,rgba(240, 16, 97,.3),#ffffff);
+            border: 8px ridge rgba(255, 4, 3,.5);
+            left: 450px;
+            top: 60px;
+        }
+.heading
+        {
+            position: absolute;
+            width: 390px;
+            height: 150px;
+            padding: 20px;
+            color: rgb(169, 34, 63);
+            background-color: transparent;
+            font-family: Alex Brush;
+            font-size: 20pt;
+        }
+.fields
+        {
+            position: absolute;
+            width: 390px;
+            height: 300px;
+            padding: 15px;
+            top: 110px;
+        }
+input[type=email]
+        {
+            width: 250px;
+            height: 50px;
+            border-radius: 20%;
+            background-color: rgb(250,250,250);
+            padding: 2px;
+            left: 30px;
+        }
+input[type=password]
+        {
+            width: 250px;
+            height: 50px;
+            border-radius: 20%;
+            background-color: rgb(250,250,250);
+            padding: 2px;
+        }
+input[type=submit]
+        {
+            width: 150px;
+            height: 40px;
+            border-radius: 4px;
+            background-color: rgb(169, 34, 63);
+            color: white;
+            padding: 10px;
+            margin: auto;
+            font-family: Aldrich;
+            font-size: 12pt;
+        }
+input[type=submit]:hover
+        {
+            background-color: rgba(169,34,63,.5);
+        }

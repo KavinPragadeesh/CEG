@@ -1,0 +1,663 @@
+.cloud1a
+        {
+            position: absolute;
+            width: 120px;
+            height: 45px;
+            color: white;
+            border-radius: 50%;
+            box-shadow: 10px 100px 11px 0 currentColor, 670px 70px 11px 0 currentColor,
+                        1150px 110px 11px 0 currentColor, 270px 10px 11px 0 currentColor;
+        }
+.cloud1b
+        {
+            position: absolute;
+            width: 90px;
+            height: 50px;
+            color: white;
+            border-radius: 50%;
+            box-shadow: 40px 110px 16px 0 currentColor, 650px 50px 22px 0 currentColor,
+                        1230px 110px 17px 0 currentColor, 260px 20px 15px 0 currentColor;
+        }
+.cloud1c
+        {
+            position: absolute;
+            width: 130px;
+            height: 30px;
+            color: white;
+            border-radius: 50%;
+            box-shadow: 50px 100px 20px 0 currentColor, 620px 90px 20px 0 currentColor,
+                        1230px 110px 20px 0 currentColor, 280px 40px 20px 0 currentColor;
+        }
+.cloud1d
+        {
+            position: absolute;
+            width: 90px;
+            height: 50px;
+            color: white;
+            border-radius: 50%;
+            box-shadow: 10px 100px 11px 0 currentColor, 620px 80px 18px 0 currentColor,
+                        1230px 110px 15px 0 currentColor, 260px 20px 20px 0 currentColor;
+        }
+.fly1a
+        {
+            position: absolute;
+            width: 25px;
+            height: 15px;
+            border-radius: 80px 150px 0 0 ;
+            color: transparent;
+            border-right: 3px solid rgb(5,16,4);
+            -webkit-transform: rotate(-45deg);
+            left: 260px;
+            top: 107px;
+        }
+.fly2a
+        {
+            position: absolute;
+            width: 25px;
+            height: 15px;
+            border-radius: 80px 150px 0 0 ;
+            color: transparent;
+            border-right: 3px solid rgb(5,16,4);
+            transform: rotate(-25deg);
+            left: 460px;
+            top: 180px;
+        }
+.fly3a
+        {
+            position: absolute;
+            width: 25px;
+            height: 15px;
+            border-radius: 80px 150px 0 0 ;
+            color: transparent;
+            border-right: 3px solid rgb(5,16,4);
+            -webkit-transform: rotate(35deg);
+            left: 960px;
+            top: 115px;
+        }
+.fly1b
+        {
+            position: absolute;
+            width: 25px;
+            height: 15px;
+            border-radius: 150px 150px 0 0 ;
+            color: transparent;
+            border-left: 3px solid rgb(5,16,4);
+            -webkit-transform: rotate(15deg);
+            left: 288px;
+            top: 103px;
+        }
+.fly2b
+        {
+            position: absolute;
+            width: 25px;
+            height: 17px;
+            border-radius: 150px 80px 0 0 ;
+            color: transparent;
+            border-left: 3px solid rgb(5,16,4);
+            -webkit-transform: rotate(5deg);
+            left: 980px;
+            top: 120px;
+        }
+.fly3b
+        {
+            position: absolute;
+            width: 25px;
+            height: 15px;
+            border-radius: 150px 80px 0 0 ;
+            color: transparent;
+            border-left: 3px solid rgb(5,16,4);
+            transform: rotate(5deg);
+            left: 488px;
+            top: 175px;
+        }
+.grass
+        {
+            position: absolute;
+            width: 1150px;
+            height: 30px;
+            color: green;
+            background: linear-gradient(to right,rgba(57, 135, 7,.9),rgba(57, 135, 7,.6));
+            left: 100px;
+            top: 429px;
+        }
+.grassa
+        {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            color: rgba(57,135,7,.7);
+            background: currentColor;
+            left: 540px;
+            top: 440px;
+        }
+.concrete1
+        {
+            position: absolute;
+            width: 330px;
+            height: 20px;
+            color: lightgrey;
+            background-color: currentColor;
+            border-bottom: 3px solid rgba(5,16,4,.1);
+            left: 580px;
+            top: 440px;
+        }
+.concrete2
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-left: 45px solid transparent;
+            border-bottom: 20px solid lightgrey;
+            left: 535px;
+            top: 440px;
+        }
+.concrete3
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-right: 45px solid transparent;
+            border-top: 22px solid lightgrey;
+            left: 910px;
+            top: 440px;
+        }
+.fence1
+        {
+            position: absolute;
+            width: 1150px;
+            height: 4px;
+            color: rgb(5,16,4,.5);
+            box-shadow: 92px 365px 1px 0 currentColor, 92px 355px 1px 0 currentColor;
+        }
+.fence2
+        {
+            position: absolute;
+            width: 3px;
+            height: 15px;
+            color: rgb(240,240,240);
+            border-radius: 150px 150px 0 0;
+            box-shadow: 95px 352px 0 0 currentColor, 125px 352px 0 0 currentColor,
+                        155px 352px 0 0 currentColor, 185px 352px 0 0 currentColor,
+                        215px 352px 0 0 currentColor, 245px 352px 0 0 currentColor,
+                        275px 352px 0 0 currentColor, 305px 352px 0 0 currentColor,
+                        335px 352px 0 0 currentColor, 365px 352px 0 0 currentColor,
+                        395px 352px 0 0 currentColor, 425px 352px 0 0 currentColor,
+                        455px 352px 0 0 currentColor, 485px 352px 0 0 currentColor,
+                        515px 352px 0 0 currentColor, 525px 351px 0 0 currentColor,
+                        537px 345px 0 0 currentColor, 550px 337px 0 0 currentColor,
+                        920px 352px 0 0 currentColor, 950px 352px 0 0 currentColor,
+                        980px 352px 0 0 currentColor, 1010px 352px 0 0 currentColor,
+                        1040px 352px 0 0 currentColor, 1070px 352px 0 0 currentColor,
+                        1100px 352px 0 0 currentColor, 1130px 352px 0 0 currentColor,
+                        1160px 352px 0 0 currentColor, 1190px 352px 0 0 currentColor,
+                        1220px 352px 0 0 currentColor, 1250px 352px 0 0 currentColor,
+                        1280px 352px 0 0 currentColor, 930px 345px 0 0 currentColor,
+                        940px 340px 0 0 currentColor;
+        }
+.fence3
+        {
+            position: absolute;
+            width: 40px;
+            height: 4px;
+            color: rgb(5,16,4,.5);
+            transform: rotate(-25deg);
+            box-shadow: 328px 538px 1px 0 currentColor, 328px 545px 1px 0 currentColor,
+                        675px 710px 1px 0 currentColor, 675px 700px 1px 0 currentColor;
+        }
+
+.road
+        {
+            position: absolute;
+            width: 1150px;
+            height: 110px;
+            color: rgb(100,100,100);
+            background-color: currentColor;
+            left: 100px;
+            top: 460px;
+        }
+.ffence1
+        {
+            position: absolute;
+            width: 17px;
+            height: 60px;
+            color: lightslategrey;
+            background-color: currentColor;
+            border-radius: 30%;
+            left: 950px;
+            top: 470px;
+        }
+.ffence2
+        {
+            position: absolute;
+            width: 8px;
+            height: 130px;
+            color: lightgrey;
+            background-color: currentColor;
+            transform: rotate(45deg);
+            left: 905px;
+            top: 455px;
+        }
+.ffence3
+        {
+            position: absolute;
+            width: 480px;
+            height: 5px;
+            color: lightgrey;
+            background-color: currentColor;
+            transform: rotate(1deg);
+            left: 480px;
+            top: 475px;
+        }
+.ffence4
+        {
+            position: absolute;
+            width: 8px;
+            height: 160px;
+            color: lightgrey;
+            background-color: currentColor;
+            transform: rotate(55deg);
+            left: 415px;
+            top: 440px;
+        }
+.ffence5
+        {
+            position: absolute;
+            width: 8px;
+            height: 55px;
+            color: lightgrey;
+            background-color: currentColor;
+            transform: rotate(45deg);
+            left: 935px;
+            top: 520px;
+        }
+.ffence6
+        {
+            position: absolute;
+            width: 5px;
+            height: 50px;
+            color: lightslategrey;
+            background-color: currentColor;
+            left: 940px;
+            top: 489px;
+        }
+.ffence7
+        {
+            position: absolute;
+            width: 5px;
+            height: 50px;
+            color: lightslategrey;
+            background-color: currentColor;
+            left: 930px;
+            top: 499px;
+        }
+.ffence8
+        {
+            position: absolute;
+            width: 5px;
+            height: 50px;
+            color: lightslategrey;
+            background-color: currentColor;
+            left: 920px;
+            top: 510px;
+        }
+.ffence9
+        {
+            position: absolute;
+            width: 5px;
+            height: 50px;
+            color: lightslategrey;
+            background-color: currentColor;
+            left: 910px;
+            top: 520px;
+        }
+.ffence10
+        {
+            position: absolute;
+            width: 5px;
+            height: 40px;
+            color: lightslategrey;
+            background-color: currentColor;
+            left: 900px;
+            top: 530px;
+        }
+.ffence11
+        {
+            position: absolute;
+            width: 5px;
+            height: 30px;
+            color: lightslategrey;
+            background-color: currentColor;
+            left: 890px;
+            top: 540px;
+        }
+.ffence12
+        {
+            position: absolute;
+            width: 5px;
+            height: 20px;
+            color: lightslategrey;
+            background-color: currentColor;
+            left: 880px;
+            top: 550px;
+        }
+.ffence13
+        {
+            position: absolute;
+            width: 5px;
+            height: 10px;
+            color: lightslategrey;
+            background-color: currentColor;
+            left: 870px;
+            top: 560px;
+        }
+.ffence14
+        {
+            position: absolute;
+            width: 480px;
+            height: 5px;
+            color: lightgrey;
+            background-color: currentColor;
+            transform: rotate(3deg);
+            left: 480px;
+            top: 510px;
+        }
+.ffence15
+        {
+            position: absolute;
+            width: 5px;
+            height: 35px;
+            color: lightslategrey;
+            box-shadow: 490px 381px 0 0 currentColor, 500px 381px 0 0 currentColor,
+                        510px 381px 0 0 currentColor, 520px 381px 0 0 currentColor,
+                        530px 381px 0 0 currentColor, 540px 381px 0 0 currentColor,
+                        550px 381px 0 0 currentColor, 560px 384px 0 0 currentColor,
+                        570px 385px 0 0 currentColor, 580px 385px 0 0 currentColor,
+                        590px 386px 0 0 currentColor, 600px 386px 0 0 currentColor,
+                        610px 387px 0 0 currentColor, 620px 387px 0 0 currentColor,
+                        630px 387px 0 0 currentColor, 640px 387px 0 0 currentColor,
+                        650px 389px 0 0 currentColor, 660px 389px 0 0 currentColor,
+                        670px 389px 0 0 currentColor, 680px 389px 0 0 currentColor,
+                        690px 389px 0 0 currentColor, 700px 389px 0 0 currentColor,
+                        710px 389px 0 0 currentColor, 720px 389px 0 0 currentColor,
+                        730px 389px 0 0 currentColor, 740px 389px 0 0 currentColor,
+                        750px 391px 0 0 currentColor, 760px 391px 0 0 currentColor,
+                        770px 391px 0 0 currentColor, 780px 391px 0 0 currentColor,
+                        790px 391px 0 0 currentColor, 800px 391px 0 0 currentColor,
+                        810px 392px 0 0 currentColor, 820px 392px 0 0 currentColor,
+                        830px 392px 0 0 currentColor, 840px 392px 0 0 currentColor,
+                        850px 392px 0 0 currentColor, 860px 392px 0 0 currentColor,
+                        870px 394px 0 0 currentColor, 880px 394px 0 0 currentColor,
+                        890px 394px 0 0 currentColor, 900px 394px 0 0 currentColor,
+                        910px 394px 0 0 currentColor, 920px 394px 0 0 currentColor,
+                        460px 390px 0 0 currentColor, 450px 400px 0 0 currentColor,
+                        440px 410px 0 0 currentColor, 430px 415px 0 0 currentColor,
+                        420px 420px 0 0 currentColor, 410px 425px 0 0 currentColor,
+                        400px 430px 0 0 currentColor, 390px 440px 0 0 currentColor,
+                        380px 445px 0 0 currentColor;
+
+        }
+.ffence16
+        {
+            position: absolute;
+            width: 10px;
+            height: 35px;
+            color: lightslategrey;
+            background-color: currentColor;
+            border-radius: 30%;
+            left: 480px;
+            top: 470px;
+        }
+.ffence17
+        {
+            position: absolute;
+            width: 8px;
+            height: 110px;
+            color: lightgrey;
+            background-color: currentColor;
+            transform: rotate(55deg);
+            left: 435px;
+            top: 480px;
+        }
+.poolborder1
+        {
+            position: absolute;
+            width: 480px;
+            height: 5px;
+            color: lightgrey;
+            background-color: currentColor;
+            transform: rotate(4deg);
+            left: 440px;
+            top: 550px;
+        }
+.poolborder2
+        {
+            position: absolute;
+            width: 8px;
+            height: 78px;
+            color: lightgrey;
+            background-color: currentColor;
+            transform: rotate(48deg);
+            left: 735px;
+            top: 503px;
+        }
+.poolborder3
+        {
+            position: absolute;
+            width: 8px;
+            height: 105px;
+            color: lightgrey;
+            background-color: currentColor;
+            transform: rotate(55deg);
+            left: 545px;
+            top: 485px;
+        }
+.pool1a
+        {
+            position: absolute;
+            width: 120px;
+            height: 60px;
+            color: lightcyan;
+            background-color: currentColor;
+            left: 590px;
+            top: 510px;
+
+        }
+
+.pool1
+        {
+            position: absolute;
+            width: 120px;
+            height: 60px;
+            color: rgba(57, 135, 164,.8);
+            background-color: currentColor;
+            left: 590px;
+            top: 510px;
+
+        }
+.pool2a
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-bottom: 60px solid lightcyan;
+            border-left: 80px solid transparent;
+            left: 510px;
+            top: 510px;
+
+        }
+.pool2
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-bottom: 60px solid rgba(57, 135, 164,.8);
+            border-left: 80px solid transparent;
+            left: 510px;
+            top: 510px;
+
+        }
+.pool3a
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-top: 60px solid lightcyan;
+            border-right: 60px solid transparent;
+            left: 710px;
+            top: 510px;
+
+        }
+.pool3
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-top: 60px solid rgba(57, 135, 164,.8);
+            border-right: 60px solid transparent;
+            left: 710px;
+            top: 510px;
+
+        }
+.pool4a
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-bottom: 35px solid lightcyan;
+            border-right: 500px solid transparent;
+            border-left: 45px solid transparent;
+            left: 400px;
+            top: 540px;
+        }
+.pool4
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-bottom: 35px solid rgba(57, 135, 164,.8);
+            border-right: 500px solid transparent;
+            border-left: 45px solid transparent;
+            left: 400px;
+            top: 535px;
+        }
+.fbase
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-bottom: 10px solid rgba(255, 165, 0,0.8);
+            border-left: 15px solid transparent;
+            border-right: 75px solid transparent;
+            left: 560px;
+            top: 560px;
+        }
+.f1
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-top: 170px solid rgb(240,240,240);
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            left: 580px;
+            top: 420px;
+
+        }
+.f1a
+        {
+            position: absolute;
+            width: 6px;
+            height: 160px;
+            color: rgb(240,240,240);
+            box-shadow: 574px 325px 5px 0 currentColor;
+        }
+.f2
+        {
+            position: absolute;
+            width: 55px;
+            height: 160px;
+            border-radius: 150px 150px 90px 90px;
+            background: linear-gradient(to bottom,rgb(240,240,240),transparent);
+            border-top: 5px solid rgba(250,250,250,1);
+            left: 560px;
+            top: 400px;
+        }
+.fgrass1
+        {
+            position: absolute;
+            width: 130px;
+            height: 60px;
+            color: rgba(57, 135, 7,.9);
+            transform: rotate(3deg);
+            box-shadow: 475px 390px 10px 0 currentColor, 755px 380px 10px 0px currentColor;
+        }
+.fgrass2
+        {
+            position: absolute;
+            width: 70px;
+            height: 20px;
+            color: rgba(57, 135, 7,.9);
+            transform: rotate(25deg);
+            box-shadow: 950px 40px 10px 10px currentColor;
+        }
+.fgrass3
+        {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            color: rgba(57, 135, 7,.9);
+            transform: rotate(0deg);
+            box-shadow: 920px 435px 10px 10px currentColor;
+        }
+.poolline
+        {
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            border-radius: 40%;
+            color: rgba(57, 135, 164,.8);
+            transform: rotate(2deg);
+            box-shadow: 620px 410px 1px 0 currentColor, 630px 415px 1px 0 currentColor,
+                        510px 450px 1px 0 currentColor;
+        }
+.ffence18
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-bottom: 8px solid lightgrey;
+            border-right: 10px solid transparent;
+            left: 350px;
+            top: 562px;
+        }
+.ffence19
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-bottom: 8px solid lightgrey;
+            border-right: 10px solid transparent;
+            left: 390px;
+            top: 562px;
+        }
+.ffence20
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-bottom: 8px solid lightgrey;
+            border-right: 10px solid transparent;
+            left: 861px;
+            top: 562px;
+        }
+.ffence21
+        {
+            position: absolute;
+            width: 0px;
+            height: 0px;
+            border-bottom: 8px solid lightgrey;
+            border-right: 10px solid transparent;
+            left: 915px;
+            top: 563px;
+        }
+

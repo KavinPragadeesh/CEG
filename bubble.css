@@ -1,0 +1,137 @@
+.bubble1
+        {
+            position: absolute;
+            width: 90px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(to right,transparent,rgba(57, 159, 225,0.2));
+            border-left: 2px solid lightblue;
+            border-bottom: .9px solid lightblue;
+            left: 250px;
+            top: 330px;
+        }
+
+.flip2
+        {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+
+        }
+.flip2 > .bubble2
+        {
+            position: absolute;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            padding: 10px;
+            background: linear-gradient(to right,transparent,rgba(57, 159, 225,0.1));
+            border-left: 2px solid lightblue;
+            border-bottom: .9px solid lightblue;
+            backface-visibility: hidden;
+            transform: perspective(600px) rotateY(0deg);
+            transition: transform .5s linear 0s;
+            font-family: combo;
+            font-size: 26pt;
+            color: rgb(35, 70, 97);
+            text-align: center;
+            left: 500px;
+            top: 220px;
+        }
+.flip2 > .bubble2b
+        {
+            position: absolute;
+            width: 140px;
+            height: 140px;
+            padding: 10px;
+            border-radius: 50%;
+            background: linear-gradient(to right,rgba(57, 159, 225,0.1),transparent);
+            border-right: 2px solid lightblue;
+            border-bottom: .9px solid lightblue;
+            backface-visibility: hidden;
+            transform: perspective(500px) rotateY(180deg);
+            transition: transform .5s linear 0s;
+            font-family: combo;
+            font-size: 26pt;
+            color: rgb(35, 70, 97);
+            text-align: center;
+            left: 500px;
+            top: 220px;
+        }
+.flip2:hover > .bubble2
+        {
+            transform: perspective(600px) rotateY(-180deg);
+        }
+.flip2:hover > .bubble2b
+        {
+            transform: perspective(600px) rotateY(0deg);
+        }
+
+.bubble3
+        {
+            position: absolute;
+            width: 90px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(to right,transparent,rgba(57, 159, 225,0.2));
+            border-left: 2px solid lightblue;
+            border-bottom: .9px solid lightblue;
+            left: 850px;
+            top: 500px;
+        }
+.bubble4
+        {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(to right,transparent,rgba(57, 159, 225,0.2));
+            border-left: 2px solid lightblue;
+            border-bottom: 1px solid lightblue;
+            left: 850px;
+            top: 190px;
+        }
+.bubble5
+        {
+            position: absolute;
+            width: 90px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(to right,transparent,rgba(57, 159, 225,0.2));
+            border-left: 2px solid lightblue;
+            border-bottom: .9px solid lightblue;
+            left: 1150px;
+            top: 170px;
+        }
+.bubblestick1
+        {
+            position: absolute;
+            width: 80px;
+            height: 90px;
+            border-radius: 50%;
+            color: rgba(250,250,250,.4);
+            background-color: currentColor;
+            transform: rotate(-30deg);
+            border-right: 10px ridge rgb(20, 34, 63);
+            border-bottom: 8px ridge rgb(20,34,63);
+            border-left: 5px ridge rgb(20,34,63);
+            border-top: 14px ridge rgb(20,34,63);
+            left: 90px;
+            top: 490px;
+
+        }
+.bubblestick2
+        {
+            position: absolute;
+            width: 3px;
+            height: 60;
+            color: rgb(20,34,63);
+            background-color: currentColor;
+            border-right: 5px ridge rgb(20, 34, 63);
+            border-bottom: 1px ridge rgb(20,34,63);
+            border-left: 8px ridge rgb(20,34,63);
+            border-top: 4px ridge rgb(20,34,63);
+            transform: rotate(-30deg);
+            left: 165px;
+            top: 585px;
+        }
