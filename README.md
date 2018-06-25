@@ -7,5 +7,5 @@ Login Bubble also has a flip 3D effect for attraction.
 The button leads to the expected login page
 It asks for login id and password.
 It also possess a submit button. 
-Just Download the Source code and deploy out in chrome.
+Just Download the Source code and deploy the home.html code out in chrome.
 Access to internet only gives proper image
