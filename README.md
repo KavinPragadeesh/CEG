@@ -8,4 +8,5 @@ The button leads to the expected login page.
 It asks for login id and password.
 It also possess a submit button. 
 Just Download the Source code and deploy the index.html code.
-Accessing in chrome with a good internet connection only gives proper image.
+Accessing in chrome with a good internet connection  gives proper image.
+Works better when viewed in computers.
